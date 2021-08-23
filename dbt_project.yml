@@ -36,3 +36,7 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: view
+
+
+vars:
+    raw___sync__collection: "clientevents.public.raw_personal"
